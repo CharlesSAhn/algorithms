@@ -1,0 +1,23 @@
+What is a binary search tree, and how does it differ from other tree data structures?
+- Each node has at most two child nodes, referred to as the left and right subtrees. 
+- The value of each node is greater than or equal to the values in its left subtree and less 
+  than or equal to the values in its right subtree.
+- Search, insertion, and deletion operations = O(log n) where n is the number of nodes in the tree.
+- Compared to other tree data structures, such as general trees, binary search trees have the advantage 
+  of faster search and modification operations. 
+- However, binary search trees require that the input data be in a specific order, and they may become 
+  unbalanced if the data is already sorted or if the insertion and deletion operations are not 
+  carefully managed. To overcome this issue, variants of binary search trees have been developed, 
+  such as AVL trees and Red-Black trees, which guarantee balanced trees and improve their 
+  worst-case time complexity.
+
+
+How do you implement the insert, search, and delete operations in a binary search tree?
+What are the advantages and disadvantages of using a binary search tree?
+How do you balance a binary search tree to maintain its performance and efficiency?
+Can you describe a real-world scenario where a binary search tree would be a suitable data structure?
+What are some common pitfalls and mistakes to avoid when working with binary search trees?
+Can you explain the differences between a binary search tree and a hash table, and when you would use one over the other?
+How do you implement traversal algorithms, such as in-order, pre-order, and post-order traversal, on a binary search tree?
+Can you describe how to implement a search algorithm, such as breadth-first search or depth-first search, on a binary search tree?
+How do you extend a binary search tree to support additional operations, such as range queries or minimum/maximum value queries?
